@@ -1,1 +1,281 @@
-Hello world!
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Allan:300,400,700" rel="stylesheet" type="text/css">
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+	<div class="background">
+	</div>
+	<div class="content">
+		<div class="top">
+			<div class="title">
+				<h1>YO WAKITA</h1>
+				<br>
+				<hr>
+			</div>
+			<div class="navigation">
+				<div class="logo hide">
+					<div class="word">
+					</div>
+				</div>
+
+				<div class="navbox">
+					<div class="word work">
+						WORK
+					</div>
+				</div>
+				<div class="navbox">
+					<div class="word about">
+						ABOUT
+					</div>
+				</div>
+				<div class="navbox">
+					<div class="word contact">
+						CONTACT
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="stripe2" id="work">
+			<div class="title">
+				<h2>
+					WORK
+				</h2>
+				<hr>
+				<div class="sample-container">
+					<div class = "sample sample1">
+						<div class="left-container">
+							<div class="sample-photo">
+							</div>
+							<div class="sample-title">
+								<h4>TIC TAC TOE - A Tetris Themed Classic.</h4>
+
+							</div>
+							<div class="languages">
+								<i> HTML5 CSS3 Javascript AngularJS Ionic Firebase </i>
+							</div>
+						</div>
+
+						<div class="right-container">
+							<div class ="sample-info">
+								<h5> About This Project</h5>
+								This was my first project and a fun introductory learning experience with Javascript & Angular. I enjoyed styling the work in a creative way to simulate the movements of Tetris, one of my favorite childhood games. This application has been ported to Ionic Framework and will be available for free download on the iOS and Android App Stores shortly.
+							</div>
+							<div class="code">
+								<h5> Favorite Bit of Code</h5>
+								<pre><code>/*Drop animation with a "locking" sequence.*/
+@-webkit-keyframes falldown {
+0% {top:-60vh;}
+95% {top:-1.5vh;}
+96% {top:-1.5vh;}
+100% {top:0vw;}
+}</code></pre>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class = "sample sample2">
+						<div class="left-container">
+							<div class="sample-photo-2">
+							</div>
+							<div class="sample-title">
+								<h4>NOW I STAR - Your Skills, On Demand.</h4>
+							</div>
+							<div class="languages">
+								<i>Ruby Rails Jquery Postgres HTML5 CSS3 Javascript Digital Ocean</i>
+							</div>
+						</div>
+						<div class="right-container">
+							<div class ="sample-info">
+								<h5> About This Project</h5>
+								We created Now I Star as a marketplace for peer to peer services and skills. Whether it be a Yoga Instructor or a landscaper, users would be able to find peers offering services on Now I Star, with the ability to read and write verified reviews. This project was built in Rails, with utilization of several technologies, including but not limited to: Google Maps, Stripe, AWS, and Digital Ocean. 
+							</div>
+							<div class="code">
+								<h5> Favorite Bit of Code</h5>
+								<pre><code>
+## Due to skills not being directed associated to categories, an empty array is created and is shoveled skills that are filtered. temp_skills.nil? prevents lack of results from erroring out.
+
+elsif params[:type] == "category"
+	@subcategories = Subcategory.where(category_id: params[:id])
+	@skills = []
+	@subcategories.each do |subcategory|
+	location = (params[:location])
+	temp_skills = Skill.where(subcategory_id: subcategory.id).near(location, 40)
+	unless temp_skills.nil?
+		temp_skills.each do |temp_skill|
+		@skills << temp_skill
+	end
+end
+</code></pre>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class = "sample sample3">
+						<div class="left-container">
+							<div class="sample-photo-3">
+							</div>
+							<div class="sample-title">
+							<h4>TRAVIZI - Hotel Booking Made Simple.</h4>
+							</div>
+							<div class="languages">
+							<i> Ruby Rails JQuery Postgres HTML5 CSS3 Javascript Heroku </i>
+							</div>
+						</div>
+						<div class="right-container">
+							<div class ="sample-info">
+								<h5> About This Project</h5>
+								We created Travizi with user experience and design in mind. In the day and age where AirBnB (and its beautiful UX) rules, we wanted to create a hotel booking site with emphasis on hotel photos, ease of navigation and accessibility. This project is built in Rails, extensively utilizing Expedia's EAN (hotel booking) API. The application was launched on Heroku on July 17th and is currently in alpha stage of development.
+							</div>
+							<div class="code">
+								<h5> Favorite Bit of Code</h5>
+								<pre><code>
+##JQuery function which sticks amenity sidebar to top of screen
+$(function(){ // document ready
+  var stickyTop = $('.amenity-sidebar').offset().top; // returns number 
+  $(window).scroll(function(){ // scroll event  
+    var windowTop = $(window).scrollTop(); // returns number
+    if (stickyTop < (windowTop*1.08)) {
+      $('.amenity-sidebar').css({ position: 'fixed', top: '51px', right: '2vw'});
+    }
+    else {
+      $('.amenity-sidebar').css({ position: 'relative', top: '-7vh', right: '2vw'});
+    }
+  });
+});
+</code></pre>
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="stripe3" id="about">
+			<div class="title">
+				<h2>
+					ABOUT
+				</h2>
+				<hr>
+				<div class="about-container">
+					<div class="sample">
+						<div class="about-pic">
+						</div>
+						<div class="about-text">
+							I love creating. Creating simple can be challenging, but being able to make something that people find aesthetically pleasing and easy to use are important to me. I want to create solutions to everyday problems, elegantly. Some of my favorite languages and frameworks are Ruby, Rails, Javascript, CSS3, HTML5, Ionic, and Angular.<br><br>
+							I was born and raised in San Diego and graduated from UC Riverside in 2010 with a degree in business administration. After college, I worked in residential and commercial real estate for five years.<br><br>
+							On my free time, I enjoy landscape and street photography, playing basketball, doodling, skateboarding, and playing with my dog Penny. 	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="stripe4" id="contact">
+			<div class="title">
+				<h2>
+					CONTACT
+				</h2>
+				<hr>
+
+			</div>
+
+			<div class="contact-form-container">
+				<p>
+				Yo Wakita
+				<br>
+				Santa Monica, CA
+				<br>
+				United States
+				<br>
+				</p>
+				<p>
+				Telephone
+				<a href="tel:6192545885">619 254 5885</a>
+				<br>
+				Email
+				<a href="mailto:wakita@gmail.com">wakita@gmail.com</a>
+				<br>
+				Github
+				<a href="github.com/yowakita">github.com/yowakita</a>
+				<br>
+				LinkedIn
+				<a href="linkedin.com/in/yowakita">linkedin.com/in/yowakita</a>
+				</p>
+			</div>
+			<div class="contact-links-container">
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
+<script>
+
+
+
+$(function(){ // document ready
+	var stickyNavTop = $('.navigation').offset().top; 
+	var stickyNav = function(){
+	var scrollTop = $(window).scrollTop();
+	      
+	if (scrollTop > stickyNavTop) { 
+	    $('.navigation').addClass('sticky');
+	    $('.logo').removeClass('hide');
+	} else {
+	    $('.navigation').removeClass('sticky');
+	    $('.logo').addClass('hide');
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+	    stickyNav();
+	});
+});
+
+
+$(".logo").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".top").offset().top},
+        'slow');
+        $('.top').removeClass('fadeintwo');
+		setTimeout( function(){
+			$('.top').addClass('fadeintwo')}
+    , 1)
+});
+
+$(".work").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#work").offset().top},
+        'slow');
+});
+
+$(".about").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top},
+        'slow');
+});
+
+$(".contact").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact").offset().top},
+        'slow');
+});
+
+
+
+</script>
+
+
+
