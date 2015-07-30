@@ -36,8 +36,9 @@ BODY {
 
 .title H1 {
 	color: #F9CC62;	
-	font-size: 75px;
+	font-size: 95px;
 	text-align: center;
+	font-weight: 700;
 }
 
 .navigation {
