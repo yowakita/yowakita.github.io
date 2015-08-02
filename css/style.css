@@ -115,14 +115,14 @@ HR {
 
 .stripe3 {
 	top: 390vh;
-	height: 100vh;
+	height: 120vh;
 	width: 100vw;
 	position: absolute;
 	background: black;
 }
 
 .stripe4 {
-	top: 490vh;
+	top: 510vh;
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
@@ -164,18 +164,17 @@ HR {
 }
 
 .stripe3 .about-pic {
-	background-size: 150%;
+	background-size: 100%;
 	top: 5vh;
 	left: 0vw;
 	width: 40vw;
-	height: 60vh;
+	height: 80vh;
 	overflow: hidden;
-	position: absolute;
+	position: no-repeat;
 	background: 3px solid;
-	background-position: 600px 0px;
 	border: 3px solid #F9CC62;
 	border-radius: 1px;
-	background-image: url('../images/background.jpg');
+	background-image: url('../images/profile.jpg');
 
 
 }
@@ -184,7 +183,7 @@ HR {
 	right: 0vw;
 	width: 40vw;
 	height: 60vh;
-	font-size: 16px;
+	font-size: 18px;
 	color: #eee;
 	font-weight: 300;
 	text-align: left;
@@ -303,6 +302,8 @@ HR {
 .code PRE {
 	font-size: 10px;
 	line-height: 10px;
+	overflow: auto;
+	background: rgba(0,0,0,.1);
 
 }
 
