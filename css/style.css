@@ -354,3 +354,33 @@ a:hover {
 	color: #F9CC62;
 	text-decoration: none;
 }
+
+.links {
+	display: inline-block;
+}
+
+.icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+
+}
+.icon:hover {
+	opacity: .9;
+	cursor: pointer;
+}
+
+.github {
+	background: url("../images/githubmark.png");
+	background-size: cover;
+	overflow: hidden;
+
+
+}
+
+.link {
+	background: url("../images/link.png");
+	background-size: cover;
+	overflow: hidden;
+
+}
