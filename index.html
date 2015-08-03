@@ -118,7 +118,7 @@ end
 					<hr>
 					<div class = "sample sample3">
 						<div class="left-container">
-							<div class="sample-photo-3">
+							<div class="sample-photo-3" onclick="location.href='https://github.com/yowakita/Travizi'";>
 							</div>
 							<div class="sample-title">
 							<h4>TRAVIZI - Hotel Booking Made Simple.</h4>
@@ -165,6 +165,7 @@ $(function(){ // document ready
 				<div class="about-container">
 					<div class="sample">
 						<div class="about-pic">
+
 						</div>
 						<div class="about-text">
 							I love creating. Creating simple can be challenging, but being able to make something that people find aesthetically pleasing and easy to use are important to me. I want to create solutions to everyday problems, elegantly. Some of my favorite languages and frameworks are Ruby, Rails, Javascript, CSS3, HTML5, Ionic, and Angular.<br><br>
@@ -245,7 +246,7 @@ $(function(){ // document ready
 
 $(".logo").click(function() {
     $('html,body').animate({
-        scrollTop: $(".top").offset().top},
+        scrollTop: $(".top").offset().top - $('.navigation').outerHeight()},
         'slow');
         $('.top').removeClass('fadeintwo');
 		setTimeout( function(){
@@ -255,19 +256,19 @@ $(".logo").click(function() {
 
 $(".work").click(function() {
     $('html,body').animate({
-        scrollTop: $("#work").offset().top},
+        scrollTop: $("#work").offset().top - $('.navigation').outerHeight()},
         'slow');
 });
 
 $(".about").click(function() {
     $('html,body').animate({
-        scrollTop: $("#about").offset().top},
+        scrollTop: $("#about").offset().top - $('.navigation').outerHeight()},
         'slow');
 });
 
 $(".contact").click(function() {
     $('html,body').animate({
-        scrollTop: $("#contact").offset().top},
+        scrollTop: $("#contact").offset().top - $('.navigation').outerHeight()},
         'slow');
 });
 
