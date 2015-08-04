@@ -115,15 +115,15 @@ HR {
 
 .stripe3 {
 	top: 390vh;
-	height: 120vh;
+	height: 110vh;
 	width: 100vw;
 	position: absolute;
 	background: black;
 }
 
 .stripe4 {
-	top: 510vh;
-	height: 100vh;
+	top: 500vh;
+	height: 90vh;
 	width: 100vw;
 	position: absolute;
 }
