@@ -54,31 +54,8 @@
 
 
 	.logo {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 400;
-		text-align: center;
-		position: absolute;
-		float: left;
-		border: 2px solid #F9CC62;
-		border-radius: 1px;
-		width: 6vh;
-		padding: 0 3px;
-		height: 6vh;
-		margin: 1vh 2vw;
-		color: #eee;
-		background-image: url("../images/arrow.png");
-		background-size: cover;
 		display: none;
 	}
-
-	.logo:hover {
-		background-image: url("../images/arrow2.png");
-		background-size: cover;
-		border: 2px solid #eee;
-		display: none;
-	}
-
-
 	.navigation .navbox {
 		font-weight: 400;
 		text-align: center;
@@ -197,7 +174,7 @@
 	}
 
 	.title H2 {
-		font-size: 55px;
+		font-size: 17vw;
 		color: #000;
 		font-weight: 400;
 		text-align: center;
