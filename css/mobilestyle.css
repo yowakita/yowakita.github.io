@@ -1,9 +1,8 @@
-/* run this CSS if the screen size is larger than 250px */
-@media only screen and (min-width: 500px) {
-
+@media only screen and (max-width: 499px) {
 	BODY { 
 		font-family: 'Raleway', sans-serif;
 		font-weight: 700;
+		overflow: auto
 	}
 
 	.background {
@@ -19,6 +18,7 @@
 		height: 100vh;
 		width: 100vw;
 	}
+
 
 	.content {
 		position: absolute;
@@ -39,7 +39,7 @@
 
 	.title H1 {
 		color: #F9CC62;	
-		font-size: 100px;
+		font-size: 70px;
 		text-align: center;
 		font-weight: 700;
 	}
@@ -51,6 +51,7 @@
 		z-index: 1;
 		-webkit-animation: fadein 3.8s;
 	}
+
 
 	.logo {
 		font-family: 'Raleway', sans-serif;
@@ -84,7 +85,7 @@
 		display: inline-block;
 		border: 3px solid #F9CC62;
 		border-radius: 1px;
-		width: 10vw;
+		width: 25vw;
 		height: 6vh;
 		margin: 1vh 2vw;
 		color: #eee;
@@ -169,11 +170,10 @@
 	.stripe3 .about-pic {
 		background-size: 100%;
 		top: 5vh;
-		left: 0vw;
-		width: 40vw;
-		height: 60vh;
+		width: 100%;
+		height: 50%;
 		overflow: hidden;
-		position: absolute;
+		display: block;
 		background-position: 0 -30px;
 		background: 3px solid;
 		border: 3px solid #F9CC62;
@@ -185,14 +185,14 @@
 	.stripe3 .about-text {
 		top: 5vh;
 		right: 0vw;
-		width: 40vw;
+		width: 100%;
 		height: 60vh;
-		font-size: 18px;
+		font-size: 2vh;
 		color: #eee;
 		font-weight: 300;
 		text-align: left;
 		font-family: 'lato', sans-serif;
-		position: absolute;
+		position: relative
 
 	}
 
@@ -220,26 +220,22 @@
 
 
 	.left-container {
-		width: 55vw;
-		height: 75vh;
-		position: absolute;
-		top: 5vh;
-		left: 0vw;
+		width: 90vw;
+		height: 60vh;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
 	}
 
 	.right-container {
-		width: 30vw;
-		height: 75vh;
-		position: absolute;
-		top: 5vh;
-		right: 0vw;
+		width: 90vw;
+		height: 40vh;
+		position: relative
+
 	}
 
 	.sample-photo {
-		width: 55vw;
-		height: 27vw;
+		width: 100%;
+		height: 40vh;
 		background-image: url("../images/sample1photo.png");
 		background-size: cover;
 		overflow: hidden;
@@ -247,8 +243,8 @@
 	}
 
 	.sample-photo-2 {
-		width: 55vw;
-		height: 27vw;
+		width: 100%;
+		height: 40vh;
 		background-image: url("../images/sample2photo.png");
 		background-size: cover;
 		overflow: hidden;
@@ -256,8 +252,8 @@
 	}
 
 	.sample-photo-3 {
-		width: 55vw;
-		height: 27vw;
+		width: 100%;
+		height: 40vh;
 		background-image: url("../images/sample3photo.png");
 		background-size: cover;
 		overflow: hidden;
@@ -266,9 +262,9 @@
 
 	.sample-info {
 		display: inline-block;
-		width: 30vw;
+		width: 100%;
 		height: auto;
-		font-size: 13px;
+		font-size: 2vh;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
 	}
@@ -288,34 +284,29 @@
 		font-family: 'Raleway', sans-serif;
 		font-weight: 400;
 		bottom-margin: 10px;
+		position: relative;
 	}
 
 	.languages {
 		height: 5vh;
-		font-size: 14px;
+		font-size: 2vh;
 		font-weight: 400;
 		width: 100%;
+		position:; relative
 	}
 
 	.code {
-		margin-top: 10vh;
-		display: block;
-		width: 30vw;
-		font-size: 12px;
-	}
+		display:none;
+		}
 	.code PRE {
-		font-size: 10px;
-		line-height: 10px;
-		overflow: auto;
-		background: rgba(0,0,0,.1);
-
+		display: none;
 	}
 
 	.contact-form-container {
 		text-align: left;
-		width: 40%;
-		margin: 100px auto;
-		font-size: 30px;
+		width: 70%;
+		margin: 0 auto;
+		font-size: 3vh;
 		font-family: 'lato'
 
 
@@ -364,8 +355,8 @@
 
 	.icon {
 		display: inline-block;
-		width: 50px;
-		height: 50px;
+		width: 25px;
+		height: 25px;
 
 	}
 	.icon:hover {
@@ -378,6 +369,7 @@
 		background: url("../images/githubmark.png");
 		background-size: cover;
 		overflow: hidden;
+
 
 
 	}
