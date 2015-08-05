@@ -39,7 +39,7 @@
 
 	.title H1 {
 		color: #F9CC62;	
-		font-size: 70px;
+		font-size: 16vw;
 		text-align: center;
 		font-weight: 700;
 	}
@@ -83,7 +83,7 @@
 		text-align: center;
 		position: relative;
 		display: inline-block;
-		border: 3px solid #F9CC62;
+		border: 2px solid #F9CC62;
 		border-radius: 1px;
 		width: 25vw;
 		height: 6vh;
@@ -92,7 +92,7 @@
 		font-size: 3vh 
 	}
 	.navigation .navbox:hover {
-		border: 3px solid #eee;
+		border: 2px solid #eee;
 		cursor: pointer;
 		color: #F9CC62;
 	}
@@ -175,8 +175,7 @@
 		overflow: hidden;
 		display: block;
 		background-position: 0 -30px;
-		background: 3px solid;
-		border: 3px solid #F9CC62;
+		border: 2px solid #F9CC62;
 		border-radius: 1px;
 		background-image: url('../images/profile.JPG');
 
