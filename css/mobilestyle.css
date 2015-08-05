@@ -148,7 +148,6 @@
 
 	.stripe3 .about-pic {
 		background-size: 100%;
-		top: 5vh;
 		width: 100%;
 		height: 50%;
 		overflow: hidden;
@@ -161,8 +160,6 @@
 
 	}
 	.stripe3 .about-text {
-		top: 5vh;
-		right: 0vw;
 		width: 100%;
 		height: 60vh;
 		font-size: 1.75vh;
