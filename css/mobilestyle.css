@@ -161,9 +161,10 @@
 
 	}
 	.stripe3 .about-text {
+		top: 5vh;
 		width: 100%;
 		height: 60vh;
-		font-size: 1.75vh;
+		font-size: 2vh;
 		color: #eee;
 		font-weight: 400;
 		text-align: left;
