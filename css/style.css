@@ -43,7 +43,7 @@
 
 	.title H1 {
 		color: #F9CC62;	
-		font-size: 100px;
+		font-size: 10vh;
 		text-align: center;
 		font-weight: 700;
 	}
@@ -148,7 +148,7 @@
 	}
 
 	.stripe3 .title H2 {
-		font-size: 55px;
+		font-size: 6vh;
 		color: #eee;
 		font-weight: 400;
 		text-align: center;
@@ -191,7 +191,7 @@
 		right: 0vw;
 		width: 40vw;
 		height: 60vh;
-		font-size: 18px;
+		font-size: 3vh;
 		color: #eee;
 		font-weight: 300;
 		text-align: left;
@@ -201,7 +201,7 @@
 	}
 
 	.title H2 {
-		font-size: 55px;
+		font-size: 6vh;
 		color: #000;
 		font-weight: 400;
 		text-align: center;
@@ -272,7 +272,7 @@
 		display: inline-block;
 		width: 30vw;
 		height: auto;
-		font-size: 13px;
+		font-size: 2vh;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
 	}
@@ -296,7 +296,7 @@
 
 	.languages {
 		height: 5vh;
-		font-size: 14px;
+		font-size: 2vh;
 		font-weight: 400;
 		width: 100%;
 	}
@@ -305,11 +305,11 @@
 		margin-top: 10vh;
 		display: block;
 		width: 30vw;
-		font-size: 12px;
+		font-size: 3vh;
 	}
 	.code PRE {
-		font-size: 10px;
-		line-height: 10px;
+		font-size: 1.25vh;
+		line-height: 1.25vh;
 		overflow: auto;
 		background: rgba(0,0,0,.1);
 
