@@ -272,7 +272,7 @@
 		display: inline-block;
 		width: 30vw;
 		height: auto;
-		font-size: 2vh;
+		font-size: 4vh;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
 	}
@@ -288,7 +288,7 @@
 	}
 
 	.sample-title {
-		height: 5vh;
+		height: 7h;
 		font-family: 'Raleway', sans-serif;
 		font-weight: 400;
 		bottom-margin: 10px;
@@ -296,7 +296,7 @@
 
 	.languages {
 		height: 5vh;
-		font-size: 2vh;
+		font-size: 4vh;
 		font-weight: 400;
 		width: 100%;
 	}
@@ -305,7 +305,7 @@
 		margin-top: 10vh;
 		display: block;
 		width: 30vw;
-		font-size: 3vh;
+		font-size: 4vh;
 	}
 	.code PRE {
 		font-size: 1.25vh;
