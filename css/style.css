@@ -43,13 +43,13 @@
 
 	.title H1 {
 		color: #F9CC62;	
-		font-size: 10vh;
+		font-size: 95px;
 		text-align: center;
 		font-weight: 700;
 	}
 
 	.navigation {
-		top: 35vh;
+		top: 30vh;
 		position: relative;
 		text-align: center;
 		z-index: 1;
@@ -64,9 +64,9 @@
 		float: left;
 		border: 2px solid #F9CC62;
 		border-radius: 1px;
-		width: 6vh;
+		width: 50px;
 		padding: 0 3px;
-		height: 6vh;
+		height: 50px;
 		margin: 1vh 2vw;
 		color: #eee;
 		font-size: 4vh;
@@ -88,11 +88,11 @@
 		display: inline-block;
 		border: 3px solid #F9CC62;
 		border-radius: 1px;
-		width: 10vw;
-		height: 6vh;
+		width: 200px;
+		height: 50px;
 		margin: 1vh 2vw;
 		color: #eee;
-		font-size: 3vh 
+		font-size: 25px; 
 	}
 	.navigation .navbox:hover {
 		border: 3px solid #eee;
@@ -148,7 +148,6 @@
 	}
 
 	.stripe3 .title H2 {
-		font-size: 6vh;
 		color: #eee;
 		font-weight: 400;
 		text-align: center;
@@ -191,7 +190,7 @@
 		right: 0vw;
 		width: 40vw;
 		height: 60vh;
-		font-size: 3vh;
+		font-size: 14px;
 		color: #eee;
 		font-weight: 300;
 		text-align: left;
@@ -272,7 +271,7 @@
 		display: inline-block;
 		width: 30vw;
 		height: auto;
-		font-size: 2vh;
+		font-size: 12px;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
 	}
@@ -296,7 +295,7 @@
 
 	.languages {
 		height: 5vh;
-		font-size: 2vh;
+		font-size: 12px;
 		font-weight: 400;
 		width: 100%;
 	}
@@ -305,11 +304,11 @@
 		margin-top: 10vh;
 		display: block;
 		width: 30vw;
-		font-size: 4vh;
+		font-size: 12px;
 	}
 	.code PRE {
-		font-size: 1.25vh;
-		line-height: 1.25vh;
+		font-size: 12px;
+		line-height: 12px;
 		overflow: auto;
 		background: rgba(0,0,0,.1);
 
