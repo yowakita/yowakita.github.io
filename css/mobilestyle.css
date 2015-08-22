@@ -286,10 +286,7 @@
 		margin: 0 auto;
 		font-size: 3vh;
 		font-family: 'lato'
-
-
 	}
-
 
 	.hide {
 		display: none;
@@ -347,9 +344,6 @@
 		background: url("../images/githubmark.png");
 		background-size: cover;
 		overflow: hidden;
-
-
-
 	}
 
 	.link {
