@@ -1,131 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>YO WAKITA</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-    <link href='css/style.css' rel='stylesheet' type='text/css'>
-    <link href='css/mobilestyle.css' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<title>yo.</title>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="background">
-	</div>
 	<div class="content">
-		<div class="top">
-			<div class="title">
-				<h1><i>YO WAKITA</i></h1>
-				<br>
-				<hr>
+		<div class="contactForm">
+			<div class="address">
+				<div>yo wakita</div>
+				<div>culver city, ca</div>
 			</div>
-			<div class="navigation">
-				<div class="logo hide">
-					<div class="word">
-					</div>
-				</div>
-				<div class="navbox">
-					<div class="word contact">
-						CONTACT
-					</div>
-				</div>
-			</div>
+			<div class="link"><a href="tel:6192545885">📞</a></div>
+			<div class="link"><a href="mailto:wakita@gmail.com">✉️</a></div>
+			<div class="link"><a href="https://www.github.com/yowakita">💾</a></div>
+			<div class="link"><a href="https://www.linkedin.com/in/yowakita">👔</a></div>
+			</p>
 		</div>
-		<div class="stripe2" id="contact">
-			<div class="title">
-				<h2> CONTACT</h2>
-				<hr>
-			</div>
-			<div class="contact-form-container">
-				<p>
-				Yo Wakita
-				<br>
-				Santa Monica, CA
-				<br>
-				United States
-				<br>
-				</p>
-				<p>
-				Telephone
-				<a href="tel:6192545885">619 254 5885</a>
-				<br>
-				Email
-				<a href="mailto:wakita@gmail.com">wakita@gmail.com</a>
-				<br>
-				Github
-				<a href="https://www.github.com/yowakita">github.com/yowakita</a>
-				<br>
-				LinkedIn
-				<a href="https://www.linkedin.com/in/yowakita">linkedin.com/in/yowakita</a>
-				</p>
-			</div>
-			<div class="contact-links-container">
-			</div>
-		</div>
-
 	</div>
 </body>
 </html>
-<script>
-
-
-
-$(function(){ // document ready
-	var stickyNavTop = $('.navigation').offset().top; 
-	var stickyNav = function(){
-	var scrollTop = $(window).scrollTop();
-	      
-	if (scrollTop > stickyNavTop) { 
-	    $('.navigation').addClass('sticky');
-	    $('.logo').removeClass('hide');
-	    $('.logo').addClass('fadenintwo');
-	} else {
-	    $('.navigation').removeClass('sticky');
-	    $('.logo').addClass('hide');
-	}
-	};
-	 
-	stickyNav();
-	 
-	$(window).scroll(function() {
-	    stickyNav();
-	});
-});
-
-
-$(".logo").click(function(e) {
-	e.preventDefault();
-    $('html,body').animate({
-        scrollTop: $(".top").offset().top - $('.navigation').outerHeight()},
-        'slow');
-        $('.top').removeClass('fadeintwo');
-		setTimeout( function(){
-			$('.top').addClass('fadeintwo')}
-    , 1)
-});
-
-$(".work").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#work").offset().top - $('.navigation').outerHeight()},
-        'slow');
-});
-
-$(".about").click(function() {
-
-    $('html,body').animate({
-        scrollTop: $("#about").offset().top - $('.navigation').outerHeight()},
-        'slow');
-});
-
-$(".contact").click(function(e) {
-	e.preventDefault();
-    $('html,body').animate({
-        scrollTop: $("#contact").offset().top - $('.navigation').outerHeight()},
-        'slow');
-});
-
-
-</script>
-
-
-
