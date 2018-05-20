@@ -1,22 +1,17 @@
 body {
-	background-color: #BDBDBD;
-	color: #2B2B2B;
-	text-align: center;
+	background-color: #007AFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
 }
 
-.contactForm {
-	font-family: 'Dosis';
-	font-weight: 300;
-	text-transform: uppercase;
-	font-size: 20px;
-	letter-spacing: 3px;
-	line-height: 2;
-}
 .link {
-	font-size: 100px;
-	display: inline-block;
-	margin: 20px;
+	font-size: 10vh;
+	text-align: center;
+}
+a {
+	text-decoration: none;
 }
