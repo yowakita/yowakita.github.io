@@ -11,6 +11,10 @@ body {
 .link {
 	font-size: 10vh;
 	text-align: center;
+	transition: .25s ease-in;
+}
+.link:hover {
+	font-size: 12vh;
 }
 a {
 	text-decoration: none;
